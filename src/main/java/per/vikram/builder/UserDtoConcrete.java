@@ -27,6 +27,6 @@ public class UserDtoConcrete implements UserDTO {
 
     @Override
     public String toString() {
-        return this.name+" lives at "+this.address+" is "+this.age+" years old";
+        return this.name+" lives at "+this.address+" and is "+this.age+" years old";
     }
 }
